@@ -1,0 +1,17 @@
+{
+    "name": "test/hello-world",
+    "authors": [
+        {
+            "name": "hungnt",
+            "email": "hungnt@evolableasia.vn"
+        }
+    ],
+    "require": {
+		"php" : ">=5.5"
+	},
+    "autoload": {
+        "psr-0": {
+            "HelloWorld": "src/"
+        }
+    }
+}
